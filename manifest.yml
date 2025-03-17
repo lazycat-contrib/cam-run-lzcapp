@@ -1,0 +1,13 @@
+lzc-sdk-version: "0.1"
+name: Cam Run
+package: cloud.lazycat.app.cam-run
+version: 0.0.1
+description: 一个基于网络摄像头的跑步游戏，通过检测用户的动作来控制游戏角色在无限场景中奔跑。AI陪跑功能，提供实时动作指导和个性化反馈。
+homepage: https://github.com/Jamesun921/cam-run
+author: Jamesun921
+application:
+  subdomain: cam-run
+  routes:
+    - /=file:///lzcapp/pkg/content
+  public_path:
+    - /
